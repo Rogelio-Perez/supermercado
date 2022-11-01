@@ -23,9 +23,9 @@ Conocer  el  **número optimo de cajas a instalar** para el **primer año de fun
 Se desarrollo un modelo de simulacion en Arena Simulation para el supermercado.
 
 ## Flujo de trabajo del proyecto
-- [x] Definir el objetivo del proyecto
+- :white_check_mark: Definir el objetivo del proyecto
 - [x] Definir los datos
-- [ ] Definir el flujo del problema
+- :x: Definir el flujo del problema
 - [ ] Definir los procesos
 - [ ] Definir los recursos
 - [ ] Definir las reglas
