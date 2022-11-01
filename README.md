@@ -40,7 +40,7 @@ Se desarrollo un modelo de simulacion en Arena Simulation para el supermercado.
 ## Diagrama de flujo (Ejemplo)
 
    ```mermaid
-    flowchart
+    flowchart TD
          st => inicio: inicio
          e => fin: Fin
          op => operación: Operación
