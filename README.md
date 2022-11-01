@@ -40,20 +40,6 @@ Se desarrollo un modelo de simulacion en Arena Simulation para el supermercado.
 - :x: Realizar la simulacion
 - :x: Analizar los resultados
 - :x: Concluir
-=======
-- [x] Definir los datos
-- :x: Definir el flujo del problema
-- [ ] Definir los procesos
-- [ ] Definir los recursos
-- [ ] Definir las reglas
-- [ ] Definir las restricciones
-- [ ] Definir los resultados
-- [ ] Definir los reportes
-- [ ] Definir los escenarios
-- [ ] Realizar la simulacion
-- [ ] Analizar los resultados
-- [ ] Concluir
->>>>>>> 80899ed4657d0caf9122d94ebfcd52873e13831e
 
 ## Diagrama de flujo (Ejemplo)
 
@@ -122,4 +108,3 @@ Otros **datos relativos de la demanda** son los siguientes:
 | 19 Y 21 DE AGOSTO (COMPRAS ESCOLARES) | NORMAL(0.17, 0.02) |
 | 20 AL 24 DE DICIEMBRE (COMPRAS NAVIDEN~AS) | NORMAL(0.17, 0.01) |
 | 28 AL 31 DE DICIEMBRE (COMPRAS DE FIN DE AN~O) | NORMAL(0.16, 0.01) |
-# supermecado
