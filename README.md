@@ -10,6 +10,10 @@
 #### **Semestre:** 7mo
 #### **Fecha:** 17 de Noviembre de 2022
 
+---
+
+# Supermercado :convenience_store:
+
 # Indice
 - <a href="#super">Requerimientos Supermercado</a>
 - <a href="#clientes">Requerimientos Clientes</a>
@@ -23,33 +27,29 @@ Conocer  el  **número optimo de cajas a instalar** para el **primer año de fun
 Se desarrollo un modelo de simulacion en Arena Simulation para el supermercado.
 
 ## Flujo de trabajo del proyecto
-- [x] Definir el objetivo del proyecto
-- [x] Definir los datos
-- [ ] Definir el flujo del problema
-- [ ] Definir los procesos
-- [ ] Definir los recursos
-- [ ] Definir las reglas
-- [ ] Definir las restricciones
-- [ ] Definir los resultados
-- [ ] Definir los reportes
-- [ ] Definir los escenarios
-- [ ] Realizar la simulacion
-- [ ] Analizar los resultados
-- [ ] Concluir
+- :white_check_mark: Definir el objetivo del proyecto
+- :white_check_mark: Definir los datos
+- :x: Definir el flujo del problema
+- :x: Definir los procesos
+- :x: Definir los recursos
+- :x: Definir las reglas
+- :x: Definir las restricciones
+- :x: Definir los resultados
+- :x: Definir los reportes
+- :x: Definir los escenarios
+- :x: Realizar la simulacion
+- :x: Analizar los resultados
+- :x: Concluir
 
 ## Diagrama de flujo (Ejemplo)
 
    ```mermaid
-    flowchat
-         st => inicio: inicio
-         e => fin: Fin
-         op => operación: Operación
-         sub1 => subrutina: subrutina
-    cond=>condition: Yes or No?
-         io => inputoutput: entrada / salida
-    st->op->cond
-    cond(yes)->io->e
-    cond(no)->sub1(right)->op
+    flowchart LR
+    A[Start] --> B{Is it?}
+    B -->|Yes| C[OK]
+    C --> D[Rethink]
+    D --> B
+    B ---->|No| E[End]
    ```
 
 
@@ -58,17 +58,17 @@ Se desarrollo un modelo de simulacion en Arena Simulation para el supermercado.
 <h3 id="super">Supermercado</h3>
 
 El proyecto consiste en **simular** el **funcionamiento** de un **supermercado** durante **un año**. Para ello se **simularan** los **siguientes requerimientos**:
-- [ ] **Cajeras contratadas** por un **año como minimo**.
-- [ ] **Suelo base** de las cajeras **$15.00 pesos la hora**.
-- [ ] **Costo fijo** de mantener una **caja semanalmente**  es  de  **$1,470.00  pesos**.
-- [ ] Se debe trabajar **14 horas diarias** *( 8 a.m. a 22 hrs )* .
+- :point_right: **Cajeras contratadas** por un **año como minimo**.
+- :point_right: **Suelo base** de las cajeras **$15.00 pesos la hora**.
+- :point_right: **Costo fijo** de mantener una **caja semanalmente**  es  de  **$1,470.00  pesos**.
+- :point_right: Se debe trabajar **14 horas diarias** *( 8 a.m. a 22 hrs )* .
 
 <h3 id="clientes">Clientes</h3>
 
 Se debe percibir diferentes **tipos de clientes**, con los **siguientes requerimientos**:
-- [ ] Clientes de **compra alta**
-- [ ] Clientes de **compra media**
-- [ ] Clientes de **compra baja**
+- :gem: Clientes de **compra alta**
+- :money_with_wings: Clientes de **compra media**
+- :balloon: Clientes de **compra baja**
 
 Los inversionistas saben que <span style="text-decoration:underline; font-weight: bold; color: yellow;" >la compra del cliente es proporcional al  tiempo que este permanece en caja, gastando por cada minuto aproximadamente $50.00 pesos</span>. En la siguiente gráfica se ve la **probabilidad normal** de **permanencia en caja**, por cada **tipo de cliente**.
 
