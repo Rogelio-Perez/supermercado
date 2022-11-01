@@ -40,11 +40,16 @@ Se desarrollo un modelo de simulacion en Arena Simulation para el supermercado.
 ## Diagrama de flujo (Ejemplo)
 
    ```mermaid
-   graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    flowchart
+         st => inicio: inicio
+         e => fin: Fin
+         op => operación: Operación
+         sub1 => subrutina: subrutina
+    cond=>condition: Yes or No?
+         io => inputoutput: entrada / salida
+    st->op->cond
+    cond(yes)->io->e
+    cond(no)->sub1(right)->op
    ```
 
 
