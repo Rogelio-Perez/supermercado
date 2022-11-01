@@ -28,7 +28,6 @@ Se desarrollo un modelo de simulacion en Arena Simulation para el supermercado.
 
 ## Flujo de trabajo del proyecto
 - :white_check_mark: Definir el objetivo del proyecto
-<<<<<<< HEAD
 - :white_check_mark: Definir los datos
 - :x: Definir el flujo del problema
 - :x: Definir los procesos
